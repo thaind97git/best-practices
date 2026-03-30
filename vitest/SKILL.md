@@ -136,21 +136,13 @@ Reference these guidelines when:
 
 Each category has its own `SKILL.md` with full rule details, anti-patterns, and code examples:
 
-| Category | File | Priority |
-|---|---|---|
-| Async Patterns | [vitest-async/SKILL.md](vitest-async/SKILL.md) | CRITICAL |
-| Test Setup & Isolation | [vitest-setup/SKILL.md](vitest-setup/SKILL.md) | CRITICAL |
-| Mocking Patterns | [vitest-mocking/SKILL.md](vitest-mocking/SKILL.md) | HIGH |
-| Performance | [vitest-performance/SKILL.md](vitest-performance/SKILL.md) | HIGH |
-| Snapshot Testing | [vitest-snapshot/SKILL.md](vitest-snapshot/SKILL.md) | MEDIUM |
-| Environment | [vitest-environment/SKILL.md](vitest-environment/SKILL.md) | MEDIUM |
-| Assertions | [vitest-assertions/SKILL.md](vitest-assertions/SKILL.md) | LOW-MEDIUM |
-| Test Organization | [vitest-organization/SKILL.md](vitest-organization/SKILL.md) | LOW |
-
----
-
-## Related Commands
-
-- `/write-test` — Generate test cases for a source file using these rules
-- `/review-test` — Review existing test files against these rules
-- `/review-code` — Review source code quality and conventions
+| Category               | File                                                         | Priority   |
+| ---------------------- | ------------------------------------------------------------ | ---------- |
+| Async Patterns         | [vitest-async/SKILL.md](vitest-async/SKILL.md)               | CRITICAL   |
+| Test Setup & Isolation | [vitest-setup/SKILL.md](vitest-setup/SKILL.md)               | CRITICAL   |
+| Mocking Patterns       | [vitest-mocking/SKILL.md](vitest-mocking/SKILL.md)           | HIGH       |
+| Performance            | [vitest-performance/SKILL.md](vitest-performance/SKILL.md)   | HIGH       |
+| Snapshot Testing       | [vitest-snapshot/SKILL.md](vitest-snapshot/SKILL.md)         | MEDIUM     |
+| Environment            | [vitest-environment/SKILL.md](vitest-environment/SKILL.md)   | MEDIUM     |
+| Assertions             | [vitest-assertions/SKILL.md](vitest-assertions/SKILL.md)     | LOW-MEDIUM |
+| Test Organization      | [vitest-organization/SKILL.md](vitest-organization/SKILL.md) | LOW        |

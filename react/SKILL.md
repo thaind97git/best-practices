@@ -3,8 +3,8 @@ name: react
 description: Comprehensive React best practices guide sourced from react.dev official documentation. Covers 9 categories with rules for component design, hooks, state, effects, refs, and custom hooks. Apply when writing, reviewing, or refactoring React code.
 user-invocable: true
 metadata:
-  source: https://react.dev
-  version: "1.0"
+    source: https://react.dev
+    version: '1.0'
 ---
 
 # React Best Practices
@@ -152,10 +152,3 @@ Each category has its own `SKILL.md` with full rule details, anti-patterns, and 
 | Events vs Effects          | [react-events-vs-effects/SKILL.md](react-events-vs-effects/SKILL.md)       | MEDIUM   |
 | Refs                       | [react-refs/SKILL.md](react-refs/SKILL.md)                                 | MEDIUM   |
 | Custom Hooks               | [react-custom-hooks/SKILL.md](react-custom-hooks/SKILL.md)                 | LOW-MED  |
-
----
-
-## Related Commands
-
-- `/review-code` — Review source code quality against these rules
-- `/write-test` — Generate tests for a React component or hook

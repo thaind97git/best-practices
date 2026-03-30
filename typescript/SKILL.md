@@ -3,8 +3,8 @@ name: typescript
 description: Comprehensive TypeScript best practices guide sourced from typescriptlang.org official documentation. Covers 10 categories with rules for type system fundamentals, narrowing, generics, functions, classes, modules, configuration, declarations, utility types, and advanced types. Apply when writing, reviewing, or refactoring TypeScript code.
 user-invocable: true
 metadata:
-  source: https://www.typescriptlang.org/docs
-  version: "1.0"
+    source: https://www.typescriptlang.org/docs
+    version: '1.0'
 ---
 
 # TypeScript Best Practices
@@ -28,18 +28,18 @@ Reference these guidelines when:
 
 ## Rule Categories by Priority
 
-| Priority | Category                     | Impact   | Prefix    |
-| -------- | ---------------------------- | -------- | --------- |
-| 1        | Type System Fundamentals     | CRITICAL | ts-       |
-| 2        | Configuration (tsconfig)     | CRITICAL | cfg-      |
-| 3        | Type Narrowing & Guards      | HIGH     | narrow-   |
-| 4        | Functions                    | HIGH     | fn-       |
-| 5        | Generics                     | HIGH     | gen-      |
-| 6        | Declaration Files            | HIGH     | decl-     |
-| 7        | Modules                      | MEDIUM   | mod-      |
-| 8        | Classes                      | MEDIUM   | cls-      |
-| 9        | Utility Types                | MEDIUM   | util-     |
-| 10       | Advanced Types               | LOW-MED  | adv-      |
+| Priority | Category                 | Impact   | Prefix  |
+| -------- | ------------------------ | -------- | ------- |
+| 1        | Type System Fundamentals | CRITICAL | ts-     |
+| 2        | Configuration (tsconfig) | CRITICAL | cfg-    |
+| 3        | Type Narrowing & Guards  | HIGH     | narrow- |
+| 4        | Functions                | HIGH     | fn-     |
+| 5        | Generics                 | HIGH     | gen-    |
+| 6        | Declaration Files        | HIGH     | decl-   |
+| 7        | Modules                  | MEDIUM   | mod-    |
+| 8        | Classes                  | MEDIUM   | cls-    |
+| 9        | Utility Types            | MEDIUM   | util-   |
+| 10       | Advanced Types           | LOW-MED  | adv-    |
 
 ---
 
@@ -155,22 +155,15 @@ Reference these guidelines when:
 
 Each category has its own `SKILL.md` with full rule details, anti-patterns, and code examples:
 
-| Category               | File                                                                                         | Priority |
-| ---------------------- | -------------------------------------------------------------------------------------------- | -------- |
-| Type System Fundamentals | [typescript-type-system/SKILL.md](./typescript-type-system/SKILL.md)                       | CRITICAL |
-| Configuration          | [typescript-config/SKILL.md](./typescript-config/SKILL.md)                                   | CRITICAL |
-| Type Narrowing & Guards | [typescript-narrowing/SKILL.md](./typescript-narrowing/SKILL.md)                            | HIGH     |
-| Functions              | [typescript-functions/SKILL.md](./typescript-functions/SKILL.md)                             | HIGH     |
-| Generics               | [typescript-generics/SKILL.md](./typescript-generics/SKILL.md)                               | HIGH     |
-| Declaration Files      | [typescript-declarations/SKILL.md](./typescript-declarations/SKILL.md)                       | HIGH     |
-| Modules                | [typescript-modules/SKILL.md](./typescript-modules/SKILL.md)                                 | MEDIUM   |
-| Classes                | [typescript-classes/SKILL.md](./typescript-classes/SKILL.md)                                 | MEDIUM   |
-| Utility Types          | [typescript-utility-types/SKILL.md](./typescript-utility-types/SKILL.md)                     | MEDIUM   |
-| Advanced Types         | [typescript-advanced-types/SKILL.md](./typescript-advanced-types/SKILL.md)                   | LOW-MED  |
-
----
-
-## Related Commands
-
-- `/review-code` — Review source code quality against these rules
-- `/write-test` — Generate tests for TypeScript code
+| Category                 | File                                                                       | Priority |
+| ------------------------ | -------------------------------------------------------------------------- | -------- |
+| Type System Fundamentals | [typescript-type-system/SKILL.md](./typescript-type-system/SKILL.md)       | CRITICAL |
+| Configuration            | [typescript-config/SKILL.md](./typescript-config/SKILL.md)                 | CRITICAL |
+| Type Narrowing & Guards  | [typescript-narrowing/SKILL.md](./typescript-narrowing/SKILL.md)           | HIGH     |
+| Functions                | [typescript-functions/SKILL.md](./typescript-functions/SKILL.md)           | HIGH     |
+| Generics                 | [typescript-generics/SKILL.md](./typescript-generics/SKILL.md)             | HIGH     |
+| Declaration Files        | [typescript-declarations/SKILL.md](./typescript-declarations/SKILL.md)     | HIGH     |
+| Modules                  | [typescript-modules/SKILL.md](./typescript-modules/SKILL.md)               | MEDIUM   |
+| Classes                  | [typescript-classes/SKILL.md](./typescript-classes/SKILL.md)               | MEDIUM   |
+| Utility Types            | [typescript-utility-types/SKILL.md](./typescript-utility-types/SKILL.md)   | MEDIUM   |
+| Advanced Types           | [typescript-advanced-types/SKILL.md](./typescript-advanced-types/SKILL.md) | LOW-MED  |
